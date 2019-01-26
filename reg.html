@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Online Quiz Management</title>
+    	<link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.js" rel="stylesheet">
+        
+         <style>
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+.login{
+	position: absolute;
+	top: calc(40% - 75px);
+	left: calc(41% - 50px);
+	height: 550px;
+	width: 500px;
+	padding: 10px;
+	z-index: 2;
+	color:#000;
+}
+
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 360px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+</style>
+
+    </head>
+    
+<body style="background-color:#A8A8A8">
+   
+     <div id="container">
+    	<div style="margin-top:100px; height:1200px; background-color:#CCC">
+            <div style="margin-top:100px;">
+                    <h1><center><font color="#000" style="font-size:55px; font-weight:bold;">Registration</font></center></h1>
+            </div>
+            <center>
+             
+            </center>
+   	</div>
+     
+     
+ 
+<form name="form1" method="post" action="">		
+		<div class="login">
+        <table width="200" border="0">
+          <tr>
+            <td><div align="right">First Name:</div></td>
+            <td> <input type="text" placeholder="username" name="user" required></td>
+          </tr>
+          <tr>
+            <td><div align="right">Last Name:</div></td>
+            <td> <input type="text" placeholder="lastname" name="user" required></td>
+          </tr>
+          <tr>
+            <td><div align="right">Email:</div></td>
+            <td> <input type="text" placeholder="Email" name="user" required></td>
+          </tr>
+          <tr>
+            <td><div align="right">Contact No:</div></td>
+            <td> <input type="text" placeholder="contactno" name="user" required></td>
+          </tr>
+          <tr>
+            <td><div align="right">DOB: </div></td>
+            <td> <input type="text" placeholder="dob" name="user" required></td>
+          </tr>
+          <tr>
+            <td><div align="right">Password:</div></td>
+            <td> <input type="text" placeholder="password" name="user" required></td>
+          </tr>
+          <tr>
+            <td> <div align="right">Confirm Password:</div></td>
+            <td> <input type="text" placeholder="confirm password" name="user" required> </td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Register"></td>
+          </tr>
+        </table>
+</div>
+</form>
+
+<script type="text/javascript">
+
+
+</script>
+</body>
+</html>
